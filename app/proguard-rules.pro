@@ -266,7 +266,7 @@
 #-------------------------------------------定制化区域----------------------------------------------
 #---------------------------------实体类---------------------------------
 #修改成你对应的包名
--keep class com.caihan.myscframe.config.** { *; }
+-keep class com.shenbh.myscframe.config.** { *; }
 
 #---------------------------------反射相关的类和方法-----------------------
 #在这下面写反射相关的类和方法，没有就不用写！
@@ -390,7 +390,7 @@
 -keepattributes Signature
 -dontwarn com.alibaba.fastjson.**
 -keep class com.alibaba.fastjson.**{*; }
--keep class * implements com.caihan.scframe.utils.IUnProguard
+-keep class * implements com.shenbh.scframe.utils.IUnProguard
 
 #okhttp
 -dontwarn com.squareup.okhttp3.**

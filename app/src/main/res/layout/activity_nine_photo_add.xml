@@ -16,7 +16,7 @@
         LinearLayoutManager
         StaggeredGridLayoutManager-->
 
-    <com.caihan.scframe.widget.photo.NinePhotoAddLayout
+    <com.shenbh.scframe.widget.photo.NinePhotoAddLayout
         android:id="@+id/nine_photo_add_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

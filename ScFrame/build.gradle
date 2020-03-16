@@ -35,7 +35,7 @@ android {
         javaCompileOptions {
             annotationProcessorOptions {
                 //EventBus加速模式
-                arguments = [eventBusIndex: 'com.caihan.scframe.utils.evenbus.MyEventBusIndex']
+                arguments = [eventBusIndex: 'com.shenbh.scframe.utils.evenbus.MyEventBusIndex']
             }
         }
     }

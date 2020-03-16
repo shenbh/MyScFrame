@@ -41,7 +41,7 @@
         android:textColor="@color/color_999999"
         tools:text="内容"/>
 
-    <com.caihan.scframe.widget.photo.NinePhotoLayout
+    <com.shenbh.scframe.widget.photo.NinePhotoLayout
         android:id="@+id/nine_photo_layout"
         android:layout_below="@+id/content_tv"
         android:layout_alignStart="@+id/title_tv"

@@ -91,7 +91,7 @@
             android:text="tag右对齐"/>
     </LinearLayout>
 
-    <com.caihan.scframe.widget.flowlayout.ScFlowLayout
+    <com.shenbh.scframe.widget.flowlayout.ScFlowLayout
         android:id="@+id/flow_layout"
         android:layout_marginTop="36dp"
         android:padding="5dp"

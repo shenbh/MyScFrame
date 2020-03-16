@@ -49,7 +49,7 @@
 }
 
 #实现该接口的类都不加入混淆
--keep class * implements com.caihan.scframe.utils.IUnProguard
+-keep class * implements com.shenbh.scframe.utils.IUnProguard
 
 #RxEasyHttp:2.1.5
 #okhttp

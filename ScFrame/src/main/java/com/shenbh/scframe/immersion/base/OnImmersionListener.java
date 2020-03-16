@@ -1,0 +1,32 @@
+package com.shenbh.scframe.immersion.base;
+
+
+import com.shenbh.scframe.immersion.ScImmersionBar;
+
+/**
+ * 沉浸式效果UI接口
+ *
+ * @author shenbh
+ * @date 2018/1/13
+ * @e-mail 93234929@qq.com
+ * 维护者
+ */
+public interface OnImmersionListener {
+
+    /**
+     * 获取沉浸式效果实例
+     *
+     * @return
+     */
+    ScImmersionBar getImmersion();
+
+    /**
+     * 设置沉浸式效果
+     */
+    void setImmersion();
+
+    /**
+     * 销毁沉浸式效果
+     */
+    void onDestroyImmersion();
+}

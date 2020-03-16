@@ -38,7 +38,7 @@ android {
          * applicationId 是发布时的唯一指定包名，尽管如此，你还是需要在 main/AndroidManifest.xml 文件中
          * 定义值是该包名的 package 属性
          */
-        applicationId "app.caihan.myscframe"
+        applicationId "app.shenbh.myscframe"
         // 定义可以运行该应用的最小 API level
         minSdkVersion rootProject.ext.minSdkVersion
         // 指定测试该应用的 API level

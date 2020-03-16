@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.caihan.scframe">
+          package="com.shenbh.scframe">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
@@ -9,7 +9,7 @@
 
     <application>
         <provider
-            android:name="com.caihan.scframe.utils.ScFileProvider"
+            android:name="com.shenbh.scframe.utils.ScFileProvider"
             android:authorities="${applicationId}.scframe.file_provider"
             android:exported="false"
             android:grantUriPermissions="true">

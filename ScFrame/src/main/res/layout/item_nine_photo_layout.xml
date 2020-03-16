@@ -4,7 +4,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-    <com.caihan.scframe.widget.imageview.SquareImageView
+    <com.shenbh.scframe.widget.imageview.SquareImageView
         android:id="@+id/nine_photo_image_iv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
